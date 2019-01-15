@@ -7,6 +7,10 @@ function updateTimer() {
         minutes = 59 - time.getUTCMinutes(),
         seconds = 59 - time.getUTCSeconds();
 
+        if(hours < 0 ){
+            hours += 24;
+            days -= 1;
+        };
 
 document.getElementById('countdown-timer-days-w').innerHTML  = ("0" + days).slice(-2);
 document.getElementById('countdown-timer-hours-w').innerHTML  = ("0" + hours).slice(-2);
