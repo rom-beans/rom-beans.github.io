@@ -5,12 +5,15 @@ function updateTimer() {
         days = 6 - time.getUTCDay() + 1,
         hours = 23 - time.getUTCHours() + 11,
         minutes = 59 - time.getUTCMinutes(),
-        seconds = 59 - time.getUTCSeconds();
+        seconds = 59 - time.getUTCSeconds(),
+        description = document.querySelector('meta[name="description"]');
 
         if(hours > 24){
             hours -= 24;
             days++;
         };
+
+        description.setAttribute('content', 'Time until Global Reset: ' + hours + 'h' + minutes + 'm');
 
 document.getElementById('countdown-timer-days-w').innerHTML  = ("0" + days).slice(-2);
 document.getElementById('countdown-timer-hours-w').innerHTML  = ("0" + hours).slice(-2);
