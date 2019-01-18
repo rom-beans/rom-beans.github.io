@@ -5,12 +5,17 @@ function updateTimer() {
         days = 6 - time.getUTCDay() + 1,
         hours = 23 - time.getUTCHours() - 2,
         minutes = 59 - time.getUTCMinutes(),
-        seconds = 59 - time.getUTCSeconds();
+        seconds = 59 - time.getUTCSeconds(),
+        starMonsterHours = 23 - time.getUTCHours() + 14,
+        starMonsterMinutes = minutes + 30;
 
-        if(hours < 0){
-            hours += 24;
-            days--;
-        };
+        if(hours > 24){ hours -= 24; days++; };
+        if(starMonsterHours > 24){ starMonsterHours -= 24; };
+        if(starMonsterMinutes > 60){ starMonsterMinutes -= 60; };
+
+document.getElementById('countdown-timer-hours-sm').innerHTML  = ("0" + starMonsterHours).slice(-2);
+document.getElementById('countdown-timer-minutes-sm').innerHTML  = ("0" + starMonsterMinutes).slice(-2);
+document.getElementById('countdown-timer-seconds-sm').innerHTML  = ("0" + seconds).slice(-2);
 
 document.getElementById('countdown-timer-days-w').innerHTML  = ("0" + days).slice(-2);
 document.getElementById('countdown-timer-hours-w').innerHTML  = ("0" + hours).slice(-2);

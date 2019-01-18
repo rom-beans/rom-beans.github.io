@@ -4,7 +4,7 @@ body {
     text-align: center;
     margin: 0;
 }
-div.timer-weekly, div.timer-daily {
+div.timer-weekly, div.timer-daily, div.timer-star-monster {
     display: flex;
     justify-content: center;
     align-items: center;
