@@ -3,10 +3,10 @@ updateTimer();
 function updateTimer() {
     var time = new Date();
         days = (time.getUTCDay() - 6) + 1,
-        hours = 23 - time.getUTCHours() - 2,
+        hours = 23 - time.getUTCHours() + 11,
         minutes = 59 - time.getUTCMinutes(),
         seconds = 59 - time.getUTCSeconds(),
-        starMonsterHours = 23 - time.getUTCHours() + 14,
+        starMonsterHours = 23 - time.getUTCHours() + 1,
         starMonsterMinutes = minutes + 30;
 
         if(days < 0){ var days = 0; };
