@@ -1,0 +1,33 @@
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="favicon.png" rel="icon">
+<title>Ragnarok Mobile: Global Server Reset Timer</title>
+
+<body onload="updateTimer(); setInterval('updateTimer()', 1000 )">
+
+<h1>Weekly Reset</h1>
+<div class="timer-weekly">
+    <div class="countdown-timer-container"><div class="countdown-timer-box" id="countdown-timer-days-w"></div><div class="countdown-timer-indicator">Days</div></div>
+    <div class="countdown-timer-container"><div class="countdown-timer-box" id="countdown-timer-hours-w"></div><div class="countdown-timer-indicator">Hours</div></div>
+    <div class="countdown-timer-container"><div class="countdown-timer-box" id="countdown-timer-minutes-w"></div><div class="countdown-timer-indicator">Minutes</div></div>
+    <div class="countdown-timer-container"><div class="countdown-timer-box" id="countdown-timer-seconds-w"></div><div class="countdown-timer-indicator">Seconds</div></div>
+</div>
+
+<h1>Daily Reset</h1>
+<div class="timer-daily">
+    <div class="countdown-timer-container"><div class="countdown-timer-box" id="countdown-timer-hours"></div><div class="countdown-timer-indicator">Hours</div></div>
+    <div class="countdown-timer-container"><div class="countdown-timer-box" id="countdown-timer-minutes"></div><div class="countdown-timer-indicator">Minutes</div></div>
+    <div class="countdown-timer-container"><div class="countdown-timer-box" id="countdown-timer-seconds"></div><div class="countdown-timer-indicator">Seconds</div></div>
+</div>
+
+<h1>Star Monster Invasion</h1>
+<div class="timer-star-monster">
+    <div class="countdown-timer-container"><div class="countdown-timer-box" id="countdown-timer-hours-sm"></div><div class="countdown-timer-indicator">Hours</div></div>
+    <div class="countdown-timer-container"><div class="countdown-timer-box" id="countdown-timer-minutes-sm"></div><div class="countdown-timer-indicator">Minutes</div></div>
+    <div class="countdown-timer-container"><div class="countdown-timer-box" id="countdown-timer-seconds-sm"></div><div class="countdown-timer-indicator">Seconds</div></div>
+</div>
+
+</body>
+
+<script src="script.js"></script>
