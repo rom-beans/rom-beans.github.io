@@ -2,13 +2,14 @@ updateTimer();
 
 function updateTimer() {
     var time = new Date();
-        days = 6 - time.getUTCDay() + 1,
+        days = (time.getUTCDay() - 6) + 1,
         hours = 23 - time.getUTCHours() - 2,
         minutes = 59 - time.getUTCMinutes(),
         seconds = 59 - time.getUTCSeconds(),
         starMonsterHours = 23 - time.getUTCHours() + 14,
         starMonsterMinutes = minutes + 30;
 
+        if(days < 0){ var days = 0; };
         if(hours > 24){ hours -= 24; days++; };
         if(starMonsterHours > 24){ starMonsterHours -= 24; };
         if(starMonsterMinutes > 60){ starMonsterMinutes -= 60; };
