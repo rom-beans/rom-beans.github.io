@@ -2,7 +2,7 @@ updateTimer();
 
 function updateTimer() {
     var time = new Date();
-        days = 6 - time.getUTCDay() + 1,
+        days = (time.getUTCDay() - 6) + 1,
         hours = 23 - time.getUTCHours() + 11,
         minutes = 59 - time.getUTCMinutes(),
         seconds = 59 - time.getUTCSeconds(),
