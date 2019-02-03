@@ -9,8 +9,8 @@ function updateTimer() {
         starMonsterHours = 23 - time.getUTCHours() + 1,
         starMonsterMinutes = minutes + 30;
 
-        if(days < 0){ var days = 0; };
-        if(hours > 24){ hours -= 24; days++; };
+        if(days <= 0){ var days = 0; };
+        if(hours > 23){ hours -= 24; days++; };
         if(starMonsterHours > 24){ starMonsterHours -= 24; };
         if(starMonsterMinutes > 60){ starMonsterMinutes -= 60; };
 
