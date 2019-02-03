@@ -6,7 +6,7 @@ function updateTimer() {
         hours = 23 - time.getUTCHours() + 11,
         minutes = 59 - time.getUTCMinutes(),
         seconds = 59 - time.getUTCSeconds(),
-        starMonsterHours = 23 - time.getUTCHours() + 1,
+        starMonsterHours = 23 - time.getUTCHours() + 3,
         starMonsterMinutes = minutes + 30;
 
         if(days <= 0){ var days = 0; };
