@@ -1,0 +1,95 @@
+{
+	"Arch": [
+		"Bohemian Coat",
+		"Tights"
+	],
+	"Arcane": [
+		"Natto Kigs Cloak",
+		"Shackles"
+	],
+	"Insight": [
+		"Monocle",
+		"Magic Bible Vol1",
+		"Sacrifice Book",
+		"Creeper Agreement",
+		"Silent Sinking",
+		"Oleanss Server",
+		"Peak Platter"
+	],
+	"Morale": [
+		// Alt gene armor
+		"Rogue Clothes",
+		"Thief Clothes",
+		"Breath Holders Armor",
+		
+		// Alt gene weapon
+		"Fullblack Dagger",
+		"Holy Dagger",
+		"Stalkers Knife",
+		
+		// For Ronin
+		"Staunch Armor",
+		"The Chosens Armor",
+		
+		"Monocle",
+
+		"Wildfire Swords",
+		"Black Flame Sword",
+		// Extra Backgear and Facegear
+		"Honey Jar",
+		"Fancy Lights",
+		"Star Lover",
+		"Baby Owl",
+		"Quiver",
+		"Dragon Glow",
+		"Ghost Rudder",
+		"Red Candlelight",
+		"Fried Chicken Soul",
+		"Im NOT BUG",
+		"Vow of the Sea",
+		"Kahos Protection",
+		"Red Candlelight",
+		"Ancestral Serpent Sword",
+		"Red Nightmare",
+		"Sweet Frog",
+		"Red Stamp",
+		"Red Seal",
+		"Star Lover",
+		"Zongzi Babe",
+		"Honey Jar",
+		"Demonic Clock",
+		"Blue Wheel",
+		"Blue Seal",
+		"Heart Buds",
+		"Alchemy Beak",
+		"Quve Mask",
+		"Hockey Mask",
+		"Nut on Head",
+		"Beast Mask",
+		"Royal Prestige",
+		"Goblin Leader Mask",
+		"Silent Sinking"
+	],
+	"Sharp Blade": [
+		// For Gene alt
+		"Fullblack Dagger",
+		"Holy Dagger",
+		"Stalkers Knife",
+		"Flower Ring",
+		"Frozen Rose Ring",
+		
+		// For Ronin
+		"Orleanss Gloves",
+		"Tibbers Hand",
+
+		"INT Earring",
+		"Flame Ring",
+		"Flame Feather",
+
+		"Wildfire Swords",
+		"Black Flame Sword"
+	],
+	"Tenacity": [
+		"Static Shield"
+	]
+}
